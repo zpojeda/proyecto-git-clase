@@ -1,0 +1,51 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right ,#80b4e2 , #a2e9ed);
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
+h1{
+    margin-top: 40px;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #007bff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+nav a:hover{
+    background-color: #007bff;
+    color: white;
+
+}
+
+table {
+    float: left;
+    border: 1;
+    margin-left: auto;
+}
+
+.enlacesCursos {
+    display: flex;;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 30px;
+    gap: 35px;
+    background-size: auto;
+}
+
+.enlacesCursos a:hover {
+    color: #333;
+}
