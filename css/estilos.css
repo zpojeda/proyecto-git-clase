@@ -31,3 +31,46 @@ nav a:hover{
 
 }
 
+.contenedor{
+
+    background-color: white;
+    width: 350px;
+    margin: 80px auto ;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) ;
+}
+
+.formulario{
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario label{
+text-align: left;
+font-weight: bold;
+}
+
+.formulario input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #75b5f9;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    background-color: #0368d4;
+
+}
